@@ -433,13 +433,16 @@
 		</div>
 	</footer>
 
-	<div id="orson-alert" class="protected alert text-center alert-light">
-		<span class="">We use cookies to ensure you get the best experience on our website.  <a class="fancy-button" href="http://cookiesandyou.com" title="Cookies!" style="box-shadow: none"> Learn More</a></span>
-		<button type="button" id="orson-alert-close" class="close" data-dismiss="alert" aria-label="Close">
-	    <span aria-hidden="true">&times;</span>
-	      I agree
-	  </button>
-	</div>
+    <!-- Cookies -->
+    <div class="alert alert-dismissible text-center cookiealert alert-light" role="alert">
+      <div class="cookiealert-container">
+          We use cookies to ensure you get the best experience on our website. <a class="fancy-button" href="http://cookiesandyou.com/" target="_blank">Learn more</a>
+
+          <button type="button" class="btn btn-outline-success btn-sm acceptcookies" aria-label="Close">
+              I agree
+          </button>
+      </div>
+    </div>
 
 	<div id="fb-root"></div>
 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
