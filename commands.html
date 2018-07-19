@@ -34,12 +34,6 @@
 			</div>
 
 <body data-ng-cloak>
-	<div id="orson-alert" class="protected alert text-center alert-light">
-		<span class="">We use cookies to ensure you get the best experience on our website.    <a class="fancy-button" href="http://cookiesandyou.com" title="Create responsive design website without coding"  style="box-shadow: none"> Learn More</a></span>
-		<button type="button" id="orson-alert-close" class="close" data-dismiss="alert" aria-label="Close">
-	    <span aria-hidden="true">&times;</span>
-	  </button>
-	</div>
 	<header class="protected">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-indigo">
 			<a class="navbar-brand" href="/" title="Eternity navbar">
@@ -76,53 +70,53 @@
 <div class="container">
 <div class="mt-4"></div>
 
-<h1 class="display-4">Eternity Commands</h1>
-<p>Commands can be invoked by prefixing with the global prefix <span class="is-green">.</span> or one of custom prefixes set by the server owner (check out <span class="is-green">prefix</span> command).</p>
-<p>You can always list all commands by typing <span class="is-green">.help</span> in chat, or if you want to see it's usage and description - type <span class="is-green">.help (command here)</span> eg. <span class="is-green">.help welcomer</span></p>
+<h1 class="display-4"><span class="is-white">Eternity Commands</span></h1>
+<p><span class="is-white">Commands can be invoked by prefixing with the global prefix</span> <span class="is-green">.</span> <span class="is-white">or one of custom prefixes set by the server owner (check out</span> <span class="is-green">prefix</span> <span class="is-white">commands).</span></p>
+<p><span class="is-white">You can always list all commands by typing</span> <span class="is-green">.help</span> <span class="is-white">in chat, or if you want to see it's usage and description - type</span> <span class="is-green">.help (command here)</span> <span class="is-white">eg.</span> <span class="is-green">.help welcomer</span></p>
 
-<p>If you want to ask us something - <a href="../external.html?link=https://discord.gg/ZvDRQf7"><span class="is-green">Join Eternity's server</span></a></p>
+<p><span class="is-white">If you want to ask us something -</span> <a href="../external.html?link=https://discord.gg/ZvDRQf7"><span class="is-green">Join Eternity's server</span></a></p>
 
-<h2>Basic commands</h2>
+<h2><span class="is-white">Basic commands</span></h2>
 
 	<div class="table-responsive-md">
 		<table class="table table-dark">
 			<thead>
 				<tr>
-					<th style="width: 25%" scope="col">Command</th>
-					<th style="width: 25%" scope="col">Aliases</th>
-					<th style="width: 25%" scope="col">Description</th>
-					<th style="width: 25%" scope="col">Usage</th>
+					<th style="width: 25%" scope="col"><span class="is-white">Command</span></th>
+					<th style="width: 25%" scope="col"><span class="is-white">Aliases</span></th>
+					<th style="width: 25%" scope="col"><span class="is-white">Description</span></th>
+					<th style="width: 25%" scope="col"><span class="is-white">Usage</span></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>userinfo</td>
-					<td>(none)</td>
-					<td>Displays information about user.</td>
+					<td><span class="is-white">userinfo</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Displays information about user.</span></td>
 					<td><span class="is-green">.userinfo [user]</span></td>
 				</tr>
 				<tr>
-					<td>ping</td>
-					<td>(none)</td>
-					<td>Checks bot latency.</td>
+					<td><span class="is-white">ping</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Checks bots latency.</span></td>
 					<td><span class="is-green">.ping</span></td>
 				</tr>
 				<tr>
-					<td>help</td>
-					<td>(none)</td>
-					<td>Displays command listing or usage, description and aliases.</td>
+					<td><span class="is-white">help</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Displays command listing or usage, description and aliases.</span></td>
 					<td><span class="is-green">.help</span></td>
 				</tr>
 				<tr>
-					<td>invite</td>
-					<td>(none)</td>
-					<td>Invite Eternity to your server!</td>
+					<td><span class="is-white">invite</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Shows Enterniy's invite url.</span></td>
 					<td><span class="is-green">.invite</span></td>
 				</tr>
 				<tr>
-					<td>serverinfo</td>
-					<td>(none)</td>
-					<td>Information about your current server.</td>
+					<td><span class="is-white">serverinfo</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Shows server's information.</span></td>
 					<td><span class="is-green">.serverinfo</span></td>
 				</tr>
 			</tbody>
@@ -142,10 +136,10 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>whatthecommit</td>
-					<td>wtc, commit</td>
-					<td>Generate random commit message. (source: <a href="../external.html?link=https://github.com/ngerakines/commitment">#</a>)</td>
-					<td><code>ky!whatthecommit </code></td>
+					<td><span class="is-white">.bank</span></td>
+					<td><span class="is-white">(none)</span></td>
+					<td><span class="is-white">Shows bank operations</span></td>
+					<td><span class="is-green">.bank</span></td>
 				</tr>
 				<tr>
 					<td>snipe</td>
@@ -611,5 +605,54 @@
 		</div>
 	</noscript>
 		</body>
+
+Admin:
+  adminset     Manage Admin settings
+  say          Bot repeats what you tell it to, utility for scheduler.
+  selfrole     Allows users to set their own role.
+Alias:
+  alias        Manage per-server aliases for commands
+Antilink:
+  antilinkset  Manages the settings for antilink.
+CustomCommands:
+  customcom    Custom commands management
+Economy:
+  bank         Bank operations
+  leaderboard  Server / global leaderboard
+  payday       Get some free credits
+  payouts      Shows slot machine payouts
+  slot         Play the slot machine
+General:
+  8            Ask 8 ball a question
+  choose       Chooses between multiple choices.
+  flip         Flips a coin... or a user.
+  lmgtfy       Creates a lmgtfy link
+  poll         Starts/stops a poll
+  roll         Rolls random number (between 1 and user choice)
+  rps          Play rock paper scissors
+  serverinfo   Shows server's informations
+  stopwatch    Starts/stops stopwatch
+  userinfo     Shows users's informations
+Mod:
+  names        Show previous names/nicknames of a user
+Owner:
+  contact      Sends a message to the owner
+  info         Shows info about Eternity
+  set          Changes Eternity's settings
+  uptime       Shows Eternity's uptime
+  version      Shows Eternity's current version
+Scheduler:
+  scheduler
+Streams:
+  hitbox       Checks if hitbox stream is online
+  mixer        Checks if mixer stream is online
+  picarto      Checks if picarto stream is online
+  streamset    Stream settings
+  twitch       Checks if twitch stream is online
+SuggestionBox:
+  setsupport   configuration settings
+  support      make a support report by following the prompts
+Welcomer:
+  welcomer     Welcomer modules settings.
 
 </html>
