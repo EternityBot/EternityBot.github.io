@@ -1,3 +1,5 @@
+// Routes
+app.use('/api/discord', require('./api/discord'));
 const express = require('express');
 const path = require('path');
 
